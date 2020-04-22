@@ -1,40 +1,57 @@
-# SsoNewsScraper
+# SSONewsScraper
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/sso_news_scraper`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to the StarStableOnline NewsScraper! This gem is intended as CLI GEM Project for Flatiron. 
 
-TODO: Delete this and the text above, and describe your gem
+Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## Installation
+Prerequisites
+What things you need to install the software and how to install them
 
-Add this line to your application's Gemfile:
+Give examples
+Installing
+A step by step series of examples that tell you how to get a development env running
 
-```ruby
-gem 'sso_news_scraper'
-```
+Say what the step will be
 
-And then execute:
+Give the example
+And repeat
 
-    $ bundle install
+until finished
+End with an example of getting some data out of the system or using it for a little demo
 
-Or install it yourself as:
+Running the tests
+Explain how to run the automated tests for this system
 
-    $ gem install sso_news_scraper
+Break down into end to end tests
+Explain what these tests test and why
 
-## Usage
+Give an example
+And coding style tests
+Explain what these tests test and why
 
-TODO: Write usage instructions here
+Give an example
+Deployment
+Add additional notes about how to deploy this on a live system
 
-## Development
+Built With
+Dropwizard - The web framework used
+Maven - Dependency Management
+ROME - Used to generate RSS Feeds
+Contributing
+Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+Versioning
+We use SemVer for versioning. For the versions available, see the tags on this repository.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+Authors
+Billie Thompson - Initial work - PurpleBooth
+See also the list of contributors who participated in this project.
 
-## Contributing
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/sso_news_scraper.
-
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+Acknowledgments
+Hat tip to anyone whose code was used
+Inspiration
+etc
