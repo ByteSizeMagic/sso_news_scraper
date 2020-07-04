@@ -6,9 +6,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["ByteSizeMagic"]
   spec.email         = ["bytesizemagic@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{CLI for displaying news updates for Star Stable Online.}
+  spec.description   = %q{Scrapes the Star STable Online news page for updates and allows reader to choose an udate to read.}
+  spec.homepage      = "https://github.com/ByteSizeMagic/sso_news_scraper"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
@@ -23,7 +23,12 @@ Gem::Specification.new do |spec|
   spec.files         = Dir.chdir(File.expand_path('..', __FILE__)) do
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   end
-  spec.bindir        = "exe"
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.bindir        = "bin"
+  spec.executables   = ["sso_news_scraper"]
   spec.require_paths = ["lib"]
+
+  spec.add_development_dependency "pry"
+  spec.add_development_dependency "gem-release"
+  spec.add_development_dependency "nokogiri"
+
 end

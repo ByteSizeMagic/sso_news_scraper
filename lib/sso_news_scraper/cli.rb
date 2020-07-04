@@ -1,3 +1,5 @@
+
+
 class CLI
   def run
     system("clear")
@@ -25,5 +27,8 @@ class CLI
   def end_program
     puts "Thanks for checking out the news for Star Stable Online, see ya soon!"
   end
+
+
+
 
   end
