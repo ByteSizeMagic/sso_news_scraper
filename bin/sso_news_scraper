@@ -2,4 +2,6 @@
 
 require_relative "../lib/sso_news_scraper.rb"
 
-CLI.new.run
+#CLI.new.run
+
+puts "currently inside bin"
