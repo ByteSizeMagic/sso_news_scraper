@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["bytesizemagic@gmail.com"]
 
   spec.summary       = %q{CLI for displaying news updates for Star Stable Online.}
-  spec.description   = %q{Scrapes the Star STable Online news page for updates and allows reader to choose an udate to read.}
+  spec.description   = %q{Scrapes the Star Stable Online news page for updates and allows reader to choose an udate to read.}
   spec.homepage      = "https://github.com/ByteSizeMagic/sso_news_scraper"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/ByteSizeMagic/sso_news_scraper.git"
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["changelog_uri"] = "https://github.com/ByteSizeMagic/sso_news_scraper/blob/master/README.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
