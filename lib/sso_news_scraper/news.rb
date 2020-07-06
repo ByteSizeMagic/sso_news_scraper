@@ -1,0 +1,1 @@
+puts "Hiya from the news!"

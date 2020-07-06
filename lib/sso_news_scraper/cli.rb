@@ -32,3 +32,6 @@ class CLI
 
 
   end
+
+
+  puts "Hello from CLI!!"
