@@ -2,7 +2,7 @@
 
 class SsoNewsScraper::CLI
   def run
-    system("clear")
+    #system("clear")
     greeting
     
     end_program
@@ -10,6 +10,7 @@ class SsoNewsScraper::CLI
 
   def greeting 
     puts "Welcome to Star Stable Online News Scraper!"
+    SsoNewsScraper::News.scrape_articles
   end
 
   # while menu != "exit"
