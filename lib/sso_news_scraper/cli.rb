@@ -1,12 +1,11 @@
 
 
-class CLI
+class SsoNewsScraper::CLI
   def run
     system("clear")
     greeting
-
-
-  end_program
+    
+    end_program
   end
 
   def greeting 
@@ -32,6 +31,3 @@ class CLI
 
 
   end
-
-
-  puts "Hello from CLI!!"
