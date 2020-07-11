@@ -4,7 +4,7 @@ class SsoNewsScraper::CLI
   def run
     #system("clear")
     greeting
-    
+    SsoNewsScraper::News.all
     end_program
   end
 
